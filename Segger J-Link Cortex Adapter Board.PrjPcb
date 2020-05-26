@@ -121,23 +121,19 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Segger J-Link Cortex Adapter Board\Design Rule Check - J-Link Cortex with VCOM Adapter.html
-DItemRevisionGUID=
+DocumentUniqueId=VBIGCLCV
 
 [Parameter1]
-Name=ProjAuth
-Value=Andrew Katz
+Name=ProjShrtName
+Value=J-Link-Cortex-VCOM
 
 [Parameter2]
 Name=ProjGitURL
-Value=https://github.com/aakatz3/J-Link-Adapters
+Value=https://github.com/aakatz3/J-Link-Cortex-VCOM
 
 [Parameter3]
-Name=ProjShrtName
-Value=CortexAdapter
+Name=ProjAuth
+Value=Andrew Katz
 
 [Configuration1]
 Name=Sources

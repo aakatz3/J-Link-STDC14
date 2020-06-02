@@ -58,7 +58,7 @@ OutputEnabled2_OutputMedium3=2
 OutputEnabled2_OutputMedium4=0
 OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
-Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=True|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=KeepLeadingAndTrailingZeroes
+Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=True|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes
 
 [PublishSettings]
 OutputFilePath2=
@@ -88,7 +88,7 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\Public\Documents\Altium\Segger J-Link Cortex Adapter Board\Project Outputs for Segger J-Link Cortex Adapter Board\OSHPark\
+OutputFilePath3=C:\git\Segger J-Link Cortex Adapter Board\Project Outputs for Segger J-Link Cortex Adapter Board\OSHPark\
 ReleaseManaged3=1
 OutputBasePath3=Project Outputs for Segger J-Link Cortex Adapter Board
 OutputPathMedia3=[Media Name]
@@ -142,7 +142,7 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=
 OpenOutputs2=1
-RelativeOutputPath3=C:\Users\Public\Documents\Altium\Segger J-Link Cortex Adapter Board\Project Outputs for Segger J-Link Cortex Adapter Board\OSHPark\
+RelativeOutputPath3=C:\git\Segger J-Link Cortex Adapter Board\Project Outputs for Segger J-Link Cortex Adapter Board\OSHPark\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0

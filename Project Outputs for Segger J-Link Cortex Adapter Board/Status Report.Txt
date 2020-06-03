@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 10:21:31 PM On 5/31/2020
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [Segger J-Link Cortex Adapter Board.PrjPcb]
+   Generated File[Bill of Materials-Segger J-Link Cortex Adapter Board.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 10:21:56 PM On 5/31/2020

@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [J-Link Cortex with VCOM Adapter.PcbDoc]
+   Generated File[J-Link Cortex with VCOM Adapter-RoundHoles.TXT]
+   Generated File[J-Link Cortex with VCOM Adapter-SlotHoles.TXT]
+   Generated File[J-Link Cortex with VCOM Adapter.LDP]
+   Generated File[J-Link Cortex with VCOM Adapter.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 5:18:28 PM On 6/2/2020

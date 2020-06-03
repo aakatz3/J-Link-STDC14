@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 9:12:21 PM On 5/31/2020
+
+Output: Component Cross Reference Report
+Type  : ReportComponents
+From  : Variant [[No Variations]] of Project [Segger J-Link Cortex Adapter Board.PrjPcb]
+   Generated File[Component Cross Reference Report-Segger J-Link Cortex Adapter Board.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 9:12:44 PM On 5/31/2020

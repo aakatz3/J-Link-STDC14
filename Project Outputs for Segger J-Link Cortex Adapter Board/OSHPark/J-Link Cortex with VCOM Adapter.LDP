@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\git\Segger J-Link Cortex Adapter Board\J-Link Cortex with VCOM Adapter.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=j-link cortex with vcom adapter-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=j-link cortex with vcom adapter-slotholes.txt|DrillLayers=gtl,gbl

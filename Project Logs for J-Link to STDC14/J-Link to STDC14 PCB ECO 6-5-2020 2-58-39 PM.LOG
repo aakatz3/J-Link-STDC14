@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=FTDI_VCC Pin=SW2-2
+Removed Pin From Net: NetName=FTDI_RESET Pin=SW2-4
+Change Component Footprint: Designator=SW2 Old Footprint=CHS-02TA New Footprint=SPA02B
+Change Component Comment : Designator=SW2 Old Comment=SWITCH SLIDE DIP SPST 100MA 6V New Comment=SWITCH SLIDE DIP SPST 10MA 20V
+Change Component Designator: OldDesignator=SW2 NewDesignator=SW?
+Change component parameters: Designator = "SW2" ("SW?"); Footprint = "CHS-02TA"; UniqueID = "\OOUNWCUD\HXOJBBRY" ("\OOUNWCUD\HXOJBBRY")
+Change component parameters (AddParameter): Name = "Actuator Height"; Value = "Flush/Recessed"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer's Website"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.ckswitches.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Component Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.ckswitches.com/media/1325/spa.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4Description"; Value = "Octopart Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4URL"; Value = "https://octopart.com/spa02b-c%26k+components-7950389?r=sp"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Beryllium Copper. Gold Finish"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Electrical Life"; Value = "1,000 Cycles"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "C&K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "SPA02B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mechanical Life"; Value = "1,000 Cycles"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Style"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Switches"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "P/N"; Value = "SPA02B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Current (A)"; Value = "10mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Rated Voltage (V)"; Value = "20VDC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "CKN9438-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Switch Function"; Value = "Off-On (Common)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Range"; Value = "-30°C ~ 60°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Throw Configuration"; Value = "2xSPST"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "DIP"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=FTDI_RESET Pin=SW?-2

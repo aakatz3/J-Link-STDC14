@@ -39,7 +39,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=J-Link Cortex with VCOM Adapter.PcbDoc
+DocumentPath=J-Link to STDC14.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -107,7 +107,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=J-Link Cortex with VCOM Adapter.SchDoc
+DocumentPath=J-Link to STDC14.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -157,29 +157,46 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document8]
+DocumentPath=FTDI.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IWQUWDYD
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Segger J-Link Cortex Adapter Board\Design Rule Check - J-Link Cortex with VCOM Adapter.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjAuth
-Value=Andrew Katz
+Name=Version
+Value=v1.0
 
 [Parameter2]
-Name=ProjGitURL
-Value=https://github.com/aakatz3/J-Link-Cortex-VCOM
+Name=VerDate
+Value=5/31/2020
 
 [Parameter3]
 Name=ProjShrtName
 Value=J-Link Cortex + VCOM
 
 [Parameter4]
-Name=VerDate
-Value=5/31/2020
+Name=ProjGitURL
+Value=https://github.com/aakatz3/J-Link-Cortex-VCOM
 
 [Parameter5]
-Name=Version
-Value=v1.0
+Name=ProjAuth
+Value=Andrew Katz
 
 [Configuration1]
 Name=Sources
@@ -823,36 +840,6 @@ OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1226,9 +1213,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Electromechanical.DbLib/Switches
-ComponentDesignItemID0=JS202011CQN
-ComponentSymbolReference0=DPDT
+ComponentLibraryIdentifier0=Integrated Circuits.DbLib/Logic Devices
+ComponentDesignItemID0=M74VHC1GT126
+ComponentSymbolReference0=M74VHC1GT126
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1244,48 +1231,58 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Actuator Height
+ParameterName0=Comment
 ParameterUpdate0=1
-ParameterName1=Comment
+ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Component Kind
+ParameterName2=ComponentLink1Description
 ParameterUpdate2=1
-ParameterName3=Description
+ParameterName3=ComponentLink1URL
 ParameterUpdate3=1
-ParameterName4=Electrical Life
+ParameterName4=ComponentLink2Description
 ParameterUpdate4=1
-ParameterName5=Library Reference
+ParameterName5=ComponentLink2URL
 ParameterUpdate5=1
-ParameterName6=Manufacturer
+ParameterName6=ComponentLink3Description
 ParameterUpdate6=1
-ParameterName7=Manufacturer Part Number
+ParameterName7=ComponentLink3URL
 ParameterUpdate7=1
-ParameterName8=Mounting Style
+ParameterName8=Description
 ParameterUpdate8=1
-ParameterName9=Number of Switches
+ParameterName9=Description in Visual
 ParameterUpdate9=1
-ParameterName10=P/N
+ParameterName10=Library Reference
 ParameterUpdate10=1
-ParameterName11=Rated Current (A)
+ParameterName11=Manufacturer
 ParameterUpdate11=1
-ParameterName12=Rated Voltage (V)
+ParameterName12=Manufacturer P/N
 ParameterUpdate12=1
-ParameterName13=Supplier 1
+ParameterName13=Number of Channels
 ParameterUpdate13=1
-ParameterName14=Supplier Part Number 1
+ParameterName14=Number of Gates
 ParameterUpdate14=1
-ParameterName15=Switch Function
+ParameterName15=Number of Inputs
 ParameterUpdate15=1
-ParameterName16=Temperature Range
+ParameterName16=P/N
 ParameterUpdate16=1
-ParameterName17=Throw Configuration
+ParameterName17=PCB Package
 ParameterUpdate17=1
-ParameterName18=Type
+ParameterName18=Supplier 1
 ParameterUpdate18=1
+ParameterName19=Supplier Part Number 1
+ParameterUpdate19=1
+ParameterName20=Temp Range
+ParameterUpdate20=1
+ParameterName21=Type
+ParameterUpdate21=1
+ParameterName22=Vs (max) (V)
+ParameterUpdate22=1
+ParameterName23=Vs (min) (V)
+ParameterUpdate23=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=JS202011CQN
+ModelName0=SOT353
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]

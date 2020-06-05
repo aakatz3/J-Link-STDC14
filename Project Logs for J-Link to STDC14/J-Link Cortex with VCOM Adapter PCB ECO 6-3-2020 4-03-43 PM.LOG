@@ -1,0 +1,59 @@
+Removed Pin From Net: NetName=VREF_TGT Pin=J2-1
+Removed Pin From Net: NetName=SWDIO Pin=J2-2
+Removed Pin From Net: NetName=GND Pin=J2-3
+Removed Pin From Net: NetName=SWDCLK Pin=J2-4
+Removed Pin From Net: NetName=GND Pin=J2-5
+Removed Pin From Net: NetName=SWO Pin=J2-6
+Removed Pin From Net: NetName=TDI Pin=J2-8
+Removed Pin From Net: NetName=PIN9 Pin=J2-9
+Removed Pin From Net: NetName=\RESET Pin=J2-10
+Removed Pin From Net: NetName=VREF_TGT Pin=J3-1
+Removed Pin From Net: NetName=SWDIO Pin=J3-2
+Removed Pin From Net: NetName=GND Pin=J3-3
+Removed Pin From Net: NetName=SWDCLK Pin=J3-4
+Removed Pin From Net: NetName=GND Pin=J3-5
+Removed Pin From Net: NetName=SWO Pin=J3-6
+Removed Pin From Net: NetName=TDI Pin=J3-8
+Removed Pin From Net: NetName=PIN9 Pin=J3-9
+Removed Pin From Net: NetName=\RESET Pin=J3-10
+Removed Pin From Net: NetName=GND Pin=J3-11
+Removed Pin From Net: NetName=GND Pin=J3-13
+Removed Pin From Net: NetName=GND Pin=J3-15
+Removed Pin From Net: NetName=GND Pin=J3-17
+Removed Pin From Net: NetName=GND Pin=J3-19
+Removed Member From Class: ClassName=J-Link Cortex with VCOM Adapter Member=J3
+Change Component Footprint: Designator=J2 Old Footprint=FTSH-105-01-F-DV-007-K PLUGOUT New Footprint=FTSH-107-01-F-DV-K
+Change Component Footprint: Designator=TP2 Old Footprint=KSTN-5000 New Footprint=KSTN-5000
+Change Component Footprint: Designator=TP1 Old Footprint=KSTN-5001 New Footprint=KSTN-5001
+Change Component Comment : Designator=J2 Old Comment=Cortex Debug, 0.050" 10 Pin New Comment=STDC14 Debug Connector
+Change Component Designator: OldDesignator=J2 NewDesignator=J?
+Change component parameters: Designator = "J2" ("J?"); Footprint = "FTSH-105-01-F-DV-007-K PLUGOUT"; UniqueID = "\BGYTGBUZ" ("\BGYTGBUZ")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Pinout Reference"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.st.com/resource/en/user_manual/dm00526767-stlinkv3set-debuggerprogrammer-for-stm8-and-stm32-stmicroelectronics.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet for Connector"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish"; Value = "Gold"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Description in Visual"; Value = "STDC14 Debug Connector (ST Micro extension to the Cortex 10 Pin), 0.050" (1.27mm) Pitch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer P/N"; Value = "FTSH-107-01-F-DV-K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "P/N"; Value = "STDC14-Debug"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "0.050""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 3"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "SAM13170TR-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "612-FTSH-107-01-F-DV-K-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 3"; Value = "FTSH-107-01-F-DV-K-P-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SWDIO Pin=J?-3
+Added Pin To Net: NetName=VREF_TGT Pin=J?-4
+Added Pin To Net: NetName=SWDCLK Pin=J?-5
+Added Pin To Net: NetName=GND Pin=J?-6
+Added Pin To Net: NetName=SWO Pin=J?-7
+Added Pin To Net: NetName=GND Pin=J?-8
+Added Pin To Net: NetName=TDI Pin=J?-9
+Added Pin To Net: NetName=\RESET Pin=J?-11
+Added Pin To Net: NetName=PIN9 Pin=J?-12

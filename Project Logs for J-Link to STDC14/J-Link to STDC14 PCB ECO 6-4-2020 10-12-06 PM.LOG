@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=J4 Old Footprint=FTDI_6_HDR_FTDIFRIEND New Footprint=FTDI_6_HDR_FTDIBASIC
+Added Room: Name=FTDI_INT
